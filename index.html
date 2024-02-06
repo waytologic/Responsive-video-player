@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="author" content="Bhuvan">
+      <title>Player</title>
+      <meta name="title" content="player">
+      <meta name="description" content="Learn how to code">
+      <!-- Bootstrap core CSS -->
+      <link rel="stylesheet" href="css/bootstrap.css" >
+
+      <link rel="stylesheet" href="css/videplaylist.css" >
+      <!-- <script src="js/bootstrap.bundle.js" ></script> -->
+      <script src="js/fa2023.js"></script>
+     
+   </head>
+   <body>   
+    <div class="container text-center">
+        <div class="text-center container-fluid ">
+            <strong>Responsive Video player <i class="font-bold fa-duotone fa-video fa-fw" style="--fa-primary-color: rgb(240, 62, 61); --fa-secondary-color: rgb(36, 103, 7);"></i></strong> 
+        </div>
+        <div class="row justify-content-center">
+          <div class="col col-md col-lg">
+            <div class="shadow main-video-container ">
+                <video src="vid/ex1.mp4" class="main-video" poster="poster/ex1.png" controls preload="auto"></video>
+                <h3 class="main-vid-title">Sample video playback</h3>
+            </div>
+          </div>
+          <div class="col-md-auto">
+            <div class="video-list-container" id="VideosList"></div>
+          </div>         
+        </div>        
+      </div>
+      <script src="videoplayList.js"></script>
+   </body>
+</html>
