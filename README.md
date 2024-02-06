@@ -1,2 +1,2 @@
 # Responsive-video-player
-> Text that is a quote
+> HTML5 video player
